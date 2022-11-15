@@ -89,8 +89,8 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-.style1 {
-  background-image: url("./image2.jpg");
+#top {
+  background-image: url("image2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: none;
