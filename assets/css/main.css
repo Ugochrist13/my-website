@@ -89,14 +89,35 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-#top {
-  background-image: url("image2.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: none;
+#mail {
+  background-color: transparent !important;
+  outline: none;
+  color: gainsboro;
+  padding: 10px;
+  border: none;
 }
 
-article,
+#nav {
+  width: 100%;
+  background-color: #006599 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 50px;
+}
+#nav-link {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 50px;
+}
+
+#top {
+  display: block;
+  background-color: aliceblue;
+}
+
 aside,
 details,
 figcaption,
@@ -2157,7 +2178,6 @@ ul.actions li:first-child {
 /* Nav */
 
 #nav {
-  background-color: #282828;
   text-align: center;
   position: fixed;
   left: 0;

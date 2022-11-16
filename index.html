@@ -15,12 +15,11 @@
 
 		<!-- Nav -->
 			<nav id="nav">
-				<div class="logo"><img src="" alt="logo"></div>
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Work</a></li>
+				<ul class="container" id="nav-link">
+					<li><a href="#top">About Me</a></li>
+					<li><a href="#work">Experience</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#contact">Contact Me</a></li>
 				</ul>
 			</nav>
 
@@ -35,9 +34,8 @@
 							<header>
 								<h1>Welcome. I'm <strong>Christian</strong>.</h1>
 							</header>
-							<p><strong>Software Developer</strong>.</p>
-							<p>I currently work as a frontend developer at Skillup Africa. I am major in front end web and mobile application developments. My main stack and technologies are Javascript, React, and React Native. I also use Python and C. Bring me any challenge on programming and I will find or provide the solution.</p>
-							<a href="#work" class="button large scrolly">Learn about what I do</a>
+							<h3><strong>Software Developer</strong></h3>
+							<p style="color: black;">I currently work as a frontend developer at Skillup Africa. I am major in front end web and mobile application developments. My main stack and technologies are Javascript, React, and React Native. I also use Python and C. Bring me any challenge on programming and I will find or provide the solution.</p>
 						</div>
 					</div>
 				</div>
@@ -47,8 +45,7 @@
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+						<h2>My Experience</h2>
 					</header>
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
@@ -140,14 +137,17 @@
 
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
-				<div class="container medium">
+				<div class="container medium" id="contme">
 					<header>
-						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+						<h2>Contact Me</h2>
+						<p>I am happy you got through my portofolio. Do leave a message if you need a services. You are guaranteed a scalable application</p>
+						
+						<label for="email">Email:</label>
+						<input type="email" value="christianugoo@gmail.com" id="mail" readonly>
 					</header>
 					<div class="row">
-						<div class="col-12">
-							<form method="post" action="#">
+						<!-- <div class="col-12">
+							<form method="post" action="christianugoo@gmail.com">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -169,18 +169,15 @@
 									</div>
 								</div>
 							</form>
-						</div>
+						</div> -->
 						<div class="col-12">
-							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://twitter.com/Christianugoo06" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://facebook.com/profile.php?id=100080268887740" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://linkedin.com/in/christian-nwabiukwu-a664a9102/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://instagram.com/genttech" class="icon brands fa-instagram"><span></span></a></li>
+								<li><a href="https://github.com/Ugochrist13" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
@@ -193,9 +190,10 @@
 								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
 								-->
 							</ul>
-							<hr />
 						</div>
 					</div>
+					<br>
+					<hr />
 					<footer>
 						<ul id="copyright">
 							<li>&copy; Untitled. All rights reserved.</li><li>Design: gentTechnologies..</li>
