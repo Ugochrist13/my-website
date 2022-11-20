@@ -1893,7 +1893,9 @@ ol {
   list-style: decimal;
   padding-left: 1.25em;
 }
-
+#intro{
+  text-align: justify;
+}
 ol li {
   padding-left: 0.25em;
 }
