@@ -1910,7 +1910,7 @@ ul.social {
 ul.social li {
   position: relative;
   display: inline-block;
-  margin: 0.25em;
+  margin: 0.2em;
   top: 0;
   padding-left: 0;
 }
@@ -1921,9 +1921,9 @@ ul.social li a {
   -ms-transition: top 0.2s ease-in-out;
   transition: top 0.2s ease-in-out;
   display: block;
-  width: 48px;
-  height: 48px;
-  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
   top: 0;
   position: relative;
 }
@@ -2600,12 +2600,12 @@ body > article {
 @media screen and (max-width: 500px) {
   #nav-link {
     width: 100%;
-    padding: 2px 5px;
+    padding: 2px 3px;
   }
   #nav{
     padding: 2px 0px;
   }
   #a{
-    font-size: 10px;
+    font-size: 8px;
   }
 }
